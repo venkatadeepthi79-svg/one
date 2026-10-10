@@ -37,27 +37,28 @@
     <repositories>
              <repository>
                     <id>flm-feed</id>
-                    <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/flm-feed/maven/v1</url>
-                    <releases>
+                             <url>https://pkgs.dev.azure.com/deepakruler8055/308e46df-59c1-4b7a-a862-f961871577f4/_packaging/flm-feed/maven/v1</url>
+                             <releases>
                       <enabled>true</enabled>
-                      </releases>
-                      <snapshots>
-                               <enabled>true</enabled>
-                      </snapshots>
-              </repository>
+                           </releases>
+                    <snapshots>
+                      <enabled>true</enabled>
+                    </snapshots>
+                  </repository>
     </repositories>
 
     <distributionManagement>
             <repository>
-  <id>flm-feed</id>
-  <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/flm-feed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  
+                    <id>flm-feed</id>
+                    <url>https://pkgs.dev.azure.com/deepakruler8055/308e46df-59c1-4b7a-a862-f961871577f4/_packaging/flm-feed/maven/v1</url>
+                    <releases>
+                      <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                      <enabled>true</enabled>
+                    </snapshots>
+         </repository>
         <snapshotRepository>
             <id>nexusRepo</id>
             <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
